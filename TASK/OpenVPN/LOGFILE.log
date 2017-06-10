@@ -1,0 +1,197 @@
+OpenVPN is already installed
+OK
+Hit:1 http://archive.canonical.com xenial InRelease
+Ign:2 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:3 http://ppa.launchpad.net/webupd8team/java/ubuntu xenial InRelease
+Hit:4 http://ppa.launchpad.net/webupd8team/sublime-text-2/ubuntu xenial InRelease
+Hit:5 http://dl.google.com/linux/chrome/deb stable Release
+Ign:6 http://apt.puppetlabs.com trusty InRelease
+Hit:7 http://apt.puppetlabs.com trusty Release
+Hit:8 http://ua.archive.ubuntu.com/ubuntu xenial InRelease
+Get:9 http://ua.archive.ubuntu.com/ubuntu xenial-updates InRelease [102 kB]
+Get:10 http://ua.archive.ubuntu.com/ubuntu xenial-backports InRelease [102 kB]
+Get:11 http://security.ubuntu.com/ubuntu xenial-security InRelease [102 kB]
+Get:13 http://dl.google.com/linux/chrome/deb stable/main amd64 Packages [1 389 B]
+Get:15 http://ua.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata [298 kB]
+Get:16 http://ua.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons [195 kB]
+Get:17 http://ua.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata [162 kB]
+Get:18 http://ua.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons [203 kB]
+Get:19 http://ua.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata [2 520 B]
+Get:20 http://ua.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata [3 324 B]
+Get:21 http://ua.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages [5 624 B]
+Get:22 http://ua.archive.ubuntu.com/ubuntu xenial-backports/universe i386 Packages [5 628 B]
+Get:23 http://ua.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata [4 672 B]
+Get:24 http://ua.archive.ubuntu.com/ubuntu xenial-backports/universe DEP-11 64x64 Icons [2 716 B]
+Get:25 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata [54,6 kB]
+Get:26 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons [45,7 kB]
+Get:27 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata [35,2 kB]
+Get:28 http://security.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons [46,7 kB]
+Fetched 1 373 kB in 2s (573 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.4.0-31 linux-headers-4.4.0-31-generic linux-headers-4.4.0-75
+  linux-headers-4.4.0-75-generic linux-image-4.4.0-31-generic
+  linux-image-4.4.0-75-generic linux-image-extra-4.4.0-31-generic
+  linux-image-extra-4.4.0-75-generic ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  google-chrome-stable
+0 upgraded, 1 newly installed, 0 to remove and 50 not upgraded.
+Need to get 0 B/60,8 MB of archives.
+After this operation, 239 MB of additional disk space will be used.
+Selecting previously unselected package google-chrome-stable.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 283359 files and directories currently installed.)
+Preparing to unpack .../google-chrome-stable_59.0.3071.86-1_amd64.deb ...
+Unpacking google-chrome-stable (59.0.3071.86-1) ...
+Processing triggers for desktop-file-utils (0.22-1ubuntu5.1) ...
+Processing triggers for bamfdaemon (0.5.3~bzr0+16.04.20160824-0ubuntu1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for gnome-menus (3.13.3-6ubuntu3.1) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up google-chrome-stable (59.0.3071.86-1) ...
+update-alternatives: using /usr/bin/google-chrome-stable to provide /usr/bin/x-www-browser (x-www-browser) in auto mode
+update-alternatives: using /usr/bin/google-chrome-stable to provide /usr/bin/gnome-www-browser (gnome-www-browser) in auto mode
+update-alternatives: using /usr/bin/google-chrome-stable to provide /usr/bin/google-chrome (google-chrome) in auto mode
+Sat Jun 10 18:05:52 2017 OpenVPN 2.3.10 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [EPOLL] [PKCS11] [MH] [IPv6] built on Feb  2 2016
+Sat Jun 10 18:05:52 2017 library versions: OpenSSL 1.0.2g  1 Mar 2016, LZO 2.08
+Sat Jun 10 18:05:52 2017 WARNING: No server certificate verification method has been enabled.  See http://openvpn.net/howto.html#mitm for more info.
+Sat Jun 10 18:05:52 2017 Socket Buffers: R=[87380->87380] S=[16384->16384]
+Sat Jun 10 18:05:52 2017 Attempting to establish TCP connection with [AF_INET]65.34.140.123:1345 [nonblock]
+Sat Jun 10 18:05:53 2017 TCP connection established with [AF_INET]65.34.140.123:1345
+Sat Jun 10 18:05:53 2017 TCPv4_CLIENT link local: [undef]
+Sat Jun 10 18:05:53 2017 TCPv4_CLIENT link remote: [AF_INET]65.34.140.123:1345
+Sat Jun 10 18:05:53 2017 TLS: Initial packet from [AF_INET]65.34.140.123:1345, sid=9c8e8755 79a0d08a
+Sat Jun 10 18:05:54 2017 VERIFY OK: depth=2, C=GB, ST=Greater Manchester, L=Salford, O=COMODO CA Limited, CN=COMODO RSA Certification Authority
+Sat Jun 10 18:05:54 2017 VERIFY OK: depth=1, C=GB, ST=Greater Manchester, L=Salford, O=COMODO CA Limited, CN=COMODO RSA Domain Validation Secure Server CA
+Sat Jun 10 18:05:54 2017 VERIFY OK: depth=0, OU=Domain Control Validated, OU=PositiveSSL Wildcard, CN=*.opengw.net
+Sat Jun 10 18:05:55 2017 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Sat Jun 10 18:05:55 2017 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Sat Jun 10 18:05:55 2017 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Sat Jun 10 18:05:55 2017 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Sat Jun 10 18:05:55 2017 Control Channel: TLSv1, cipher TLSv1/SSLv3 DHE-RSA-AES256-SHA, 2048 bit RSA
+Sat Jun 10 18:05:55 2017 [*.opengw.net] Peer Connection Initiated with [AF_INET]65.34.140.123:1345
+Sat Jun 10 18:05:57 2017 SENT CONTROL [*.opengw.net]: 'PUSH_REQUEST' (status=1)
+Sat Jun 10 18:05:57 2017 PUSH: Received control message: 'PUSH_REPLY,ping 3,ping-restart 10,ifconfig 10.211.1.25 10.211.1.26,dhcp-option DNS 10.211.254.254,dhcp-option DNS 8.8.8.8,route-gateway 10.211.1.26,redirect-gateway def1'
+Sat Jun 10 18:05:57 2017 OPTIONS IMPORT: timers and/or timeouts modified
+Sat Jun 10 18:05:57 2017 OPTIONS IMPORT: --ifconfig/up options modified
+Sat Jun 10 18:05:57 2017 OPTIONS IMPORT: route options modified
+Sat Jun 10 18:05:57 2017 OPTIONS IMPORT: route-related options modified
+Sat Jun 10 18:05:57 2017 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+Sat Jun 10 18:05:57 2017 ROUTE_GATEWAY 172.20.8.1/255.255.255.0 IFACE=enp3s0 HWADDR=94:de:80:03:ec:58
+Sat Jun 10 18:05:57 2017 TUN/TAP device tun2 opened
+Sat Jun 10 18:05:57 2017 TUN/TAP TX queue length set to 100
+Sat Jun 10 18:05:57 2017 do_ifconfig, tt->ipv6=0, tt->did_ifconfig_ipv6_setup=0
+Sat Jun 10 18:05:57 2017 /sbin/ip link set dev tun2 up mtu 1500
+Sat Jun 10 18:05:57 2017 /sbin/ip addr add dev tun2 local 10.211.1.25 peer 10.211.1.26
+Sat Jun 10 18:05:57 2017 /sbin/ip route add 65.34.140.123/32 via 172.20.8.1
+Sat Jun 10 18:05:57 2017 /sbin/ip route add 0.0.0.0/1 via 10.211.1.26
+Sat Jun 10 18:05:57 2017 /sbin/ip route add 128.0.0.0/1 via 10.211.1.26
+Sat Jun 10 18:05:57 2017 Initialization Sequence Completed
+Sat Jun 10 18:07:03 2017 event_wait : Interrupted system call (code=4)
+Sat Jun 10 18:07:03 2017 /sbin/ip route del 65.34.140.123/32
+Sat Jun 10 18:07:03 2017 /sbin/ip route del 0.0.0.0/1
+Sat Jun 10 18:07:03 2017 /sbin/ip route del 128.0.0.0/1
+Sat Jun 10 18:07:03 2017 Closing TUN/TAP interface
+Sat Jun 10 18:07:03 2017 /sbin/ip addr del dev tun2 local 10.211.1.25 peer 10.211.1.26
+Sat Jun 10 18:07:03 2017 SIGTERM[hard,] received, process exiting
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apt-clone archdetect-deb dmeventd gir1.2-clutter-1.0 gir1.2-clutter-gst-3.0
+  gir1.2-cogl-1.0 gir1.2-coglpango-1.0 gir1.2-gtkclutter-1.0
+  gir1.2-timezonemap-1.0 gir1.2-xkl-1.0 kde-config-screenlocker kinit kio
+  kpackagelauncherqml kpackagetool5 kwayland-data kwayland-integration kwin
+  kwin-common kwin-data kwin-x11 libbonobo2-0 libbonobo2-common
+  libdebian-installer4 libdevmapper-event1.02.1 libfam0 libgnome-2-0
+  libgnome2-common libgnomevfs2-0 libgnomevfs2-common libkdecorations2-5v5
+  libkdecorations2private5v5 libkf5activities5 libkf5archive5 libkf5attica5
+  libkf5auth-data libkf5auth5 libkf5bookmarks-data libkf5bookmarks5
+  libkf5calendarevents5 libkf5codecs-data libkf5codecs5 libkf5completion-data
+  libkf5completion5 libkf5config-bin libkf5config-data libkf5configcore5
+  libkf5configgui5 libkf5configwidgets-data libkf5configwidgets5
+  libkf5coreaddons-data libkf5coreaddons5 libkf5crash5 libkf5dbusaddons-bin
+  libkf5dbusaddons-data libkf5dbusaddons5 libkf5declarative-data
+  libkf5declarative5 libkf5globalaccel-bin libkf5globalaccel-data
+  libkf5globalaccel5 libkf5globalaccelprivate5 libkf5gpgmepp5 libkf5guiaddons5
+  libkf5i18n-data libkf5i18n5 libkf5iconthemes-bin libkf5iconthemes-data
+  libkf5iconthemes5 libkf5idletime5 libkf5itemviews-data libkf5itemviews5
+  libkf5jobwidgets-data libkf5jobwidgets5 libkf5kcmutils-data libkf5kcmutils5
+  libkf5kdelibs4support-data libkf5kdelibs4support5 libkf5kdelibs4support5-bin
+  libkf5kiocore5 libkf5kiofilewidgets5 libkf5kiontlm5 libkf5kiowidgets5
+  libkf5newstuff-data libkf5newstuff5 libkf5notifications-data
+  libkf5notifications5 libkf5package-data libkf5package5 libkf5parts-data
+  libkf5parts-plugins libkf5parts5 libkf5plasma5 libkf5plasmaquick5
+  libkf5quickaddons5 libkf5service-bin libkf5service-data libkf5service5
+  libkf5solid5 libkf5solid5-data libkf5sonnet5-data libkf5sonnetcore5
+  libkf5sonnetui5 libkf5textwidgets-data libkf5textwidgets5 libkf5wallet-bin
+  libkf5wallet-data libkf5wallet5 libkf5waylandclient5 libkf5waylandserver5
+  libkf5widgetsaddons-data libkf5widgetsaddons5 libkf5windowsystem-data
+  libkf5windowsystem5 libkf5xmlgui-bin libkf5xmlgui-data libkf5xmlgui5
+  libkscreenlocker5 libkwalletbackend5-5 libkwin4-effect-builtins1
+  libkwineffects7 libkwinglutils7 libkwinxrenderutils7 liblvm2app2.2
+  liblvm2cmd2.02 liborbit-2-0 libphonon4qt5-4 libpolkit-qt5-1-1
+  libqt4-designer libqt4-help libqt4-opengl libqt4-scripttools libqt4-svg
+  libqt4-test libqt5script5 libqt5x11extras5 libqtassistantclient4
+  libqtwebkit4 libreadline5 libvoikko1 libxcb-composite0 libxcb-cursor0
+  libxcb-damage0 linux-headers-4.4.0-23 linux-headers-4.4.0-23-generic
+  linux-image-4.4.0-23-generic linux-image-extra-4.4.0-23-generic
+  linux-signed-image-4.4.0-23-generic linux-tools-4.4.0-23
+  linux-tools-4.4.0-23-generic lvm2 plasma-framework python3-icu python3-pam
+  python3-pyqt4 python3-sip qml-module-org-kde-kquickcontrols
+  qml-module-org-kde-kquickcontrolsaddons qml-module-qtquick-controls
+  qml-module-qtquick-dialogs qml-module-qtquick-privatewidgets rdate
+  sonnet-plugins
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libpkcs11-helper1
+Suggested packages:
+  easy-rsa
+The following NEW packages will be installed:
+  libpkcs11-helper1 openvpn
+0 upgraded, 2 newly installed, 0 to remove and 341 not upgraded.
+Need to get 462 kB of archives.
+After this operation, 1 163 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Get:1 http://archive.ubuntu.com/ubuntu xenial/main amd64 libpkcs11-helper1 amd64 1.11-5 [44,0 kB]
+Get:2 http://archive.ubuntu.com/ubuntu xenial/main amd64 openvpn amd64 2.3.10-1ubuntu2 [418 kB]
+Preconfiguring packages ...
+Fetched 462 kB in 0s (507 kB/s)
+Selecting previously unselected package libpkcs11-helper1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 251647 files and directories currently installed.)
+Preparing to unpack .../libpkcs11-helper1_1.11-5_amd64.deb ...
+Unpacking libpkcs11-helper1:amd64 (1.11-5) ...
+Selecting previously unselected package openvpn.
+Preparing to unpack .../openvpn_2.3.10-1ubuntu2_amd64.deb ...
+Unpacking openvpn (2.3.10-1ubuntu2) ...
+Processing triggers for libc-bin (2.23-0ubuntu7) ...
+Processing triggers for man-db (2.7.5-1) ...
+cProcessing triggers for systemd (229-4ubuntu10) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+ureadahead will be reprofiled on next reboot
+Setting up libpkcs11-helper1:amd64 (1.11-5) ...
+Setting up openvpn (2.3.10-1ubuntu2) ...
+ * Restarting virtual private network daemon(s)...       [80G  [33m*[39;49m   No VPN is running.
+qinsserv: warning: script 'K00shut' missing LSB tags and overrides
+Processing triggers for libc-bin (2.23-0ubuntu7) ...
+aProcessing triggers for systemd (229-4ubuntu10) ...
+sdProcessing triggers for ureadahead (0.100.0-19) ...
+asd
+Google-Chrome is already installed
+OpenVPN is already installed
+Google-Chrome is already installed
+OpenVPN is already installed
+Google-Chrome is already installed
+OpenVPN is already installed
+Google-Chrome is already installed
+OpenVPN is already installed
+Google-Chrome is already installed
+OpenVPN is already installed
+Google-Chrome is already installed
+OpenVPN is already installed
+Google-Chrome is already installed
+OpenVPN is already installed
+Google-Chrome is already installed
